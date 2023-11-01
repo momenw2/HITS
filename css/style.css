@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    /* background-color: rgb(0, 61, 158); */
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav-container{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    background-color: rgb(0, 61, 158);
+
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.left-nav img{
+    padding: 10px;
+}
+
+
+.right-nav{
+    padding-left: 50%;
+}
+
+.right-nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    color: white;
+    list-style: none;
+
+}
+
+.right-nav ul li a{
+    color: rgb(253, 253, 253);
+    padding-right: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.right-nav ul li a:hover{
+    color: rgb(72, 72, 72);
+    font-size: 19px;
+}
+
+.firstDiv-firstContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 580px;
+    background-color: rgb(0, 61, 158);
+
+}
+
+.firstDiv-firstContainer h1{
+    color: white;
+    padding-left: 80px;
+    margin-top: 90px;
+    font-size: 80px;
+}
+
+.firstDiv-firstContainer img{
+    height: 700px;
+    width: 700px;
+    padding-left: 92px;
+    }
+
+.firstDiv-secondContainer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /* padding-left: 80px; */
+    justify-content: space-around;
+    background-color: rgb(0, 61, 158); 
+    margin-bottom: 110px;
+}
+
+.firstDiv-secondContainer li{
+    width: 230px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 120px;
+}
+
+.secondDiv h3{
+    padding-left: 80px;
+    font-size: 40px;
+    margin-bottom: 80px;
+    color: rgb(0, 61, 158);
+}
+
+.secondDiv-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secondDiv-container img{
+    height: 60px;
+    width: 190px;
+    padding: 30px;
+}
+
+.secondDiv-firstContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.secondDiv-secondContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondDiv p{
+    width: 35%;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 28%;
+}
+
+.secondDiv h5{
+    width: 35%;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 28%;
+    font-weight: bold;
+}
+
+.secondDiv p a{
+    text-decoration: none;
+    color: rgb(0, 61, 158);
+}
+
