@@ -51,7 +51,7 @@
 }
 
 .right-nav ul li a:hover{
-    color: rgb(72, 72, 72);
+    color: rgb(169, 169, 169);
     font-size: 19px;
 }
 
@@ -225,3 +225,29 @@
     border-radius:  0% 0% 20% 0%;
 }
 
+.fourthDiv-container{
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+.fourthDiv-container h3{
+    color: rgb(0, 61, 158);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.fourthDiv-container li{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+
+.fourthDiv-container li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
